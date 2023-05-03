@@ -74,12 +74,58 @@
 # else:
 #     print('Hello,', username)
 
-i = 0
-while i < 5:
-    if i == 3:
-        break
-    i = i + i
-else:
-    print('Its')
-    print('Enough')
-print(i)
+# i = 0
+# while i < 5:
+#     if i == 3:
+#         break
+#     i = i + i
+# else:
+#     print('Its')
+#     print('Enough')
+# print(i)
+
+# n = int(input())
+# flag = True
+# i = 2
+# while flag:
+#     if n % i == 0:
+#         flag= False
+#         print(i)
+#     elif i > n // 2:
+#         print(n)
+#         flag = False
+#     i += 1  
+    
+# n = int(input())
+# a = n // 2
+# print(a)
+
+# r = range(100, 0, -20)
+# for i in r:
+#     print(i)
+
+# a = "qwerty"
+# print(a[0])
+
+# a = "qwerty"
+# for i in a:
+#     print(i)
+
+# line = ""
+# for i in range(6):
+#     line = ""
+#     for j in range(4):
+#         line += "+"
+#     print(line)
+
+text = "сеШь еще Этих мягких французских булочек"
+print(text[0])
+print(text[1])
+print(text[len(text) -1])
+print(text[:2])
+print(text[:])
+print(text[len(text)-2:])
+print(text[2:9])#от 2 идо 9 символа не вклчая 9
+print(text[6:-18])#начаная с 6 симвоа с начала и заканчивая 18 симоволом с конца
+print(text[0:len(text):6])#с шагом в 6 от начала и до конца
+print(text[::6])# c шагом в 6 от начала и до конца
